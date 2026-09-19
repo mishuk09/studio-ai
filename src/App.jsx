@@ -1,15 +1,15 @@
 import { Route, Routes } from "react-router-dom";
 
-import Profile from "./components/users/profile";
-import Home from "./pages/home";
-import LandingPage from "./pages/landingpage";
+import Profile from "./components/users/Profile";
+import Home from "./pages/Home";
+import LandingPage from "./pages/LandingPage";
 import LoginForm from "./pages/loginform ";
-import Note from "./pages/note";
-import RegisterForm from "./pages/registerForm";
-import Rewrite from "./pages/rewrite";
-import ProtectedRoute from "./utills/protectedroute";
+import Note from "./pages/Note";
+import RegisterForm from "./pages/RegisterForm";
+import Rewrite from "./pages/Rewrite";
+import ProtectedRoute from "./utills/ProtectedRoute";
 import Layout from "./components/Home/Layout";
-import Allnews from "./pages/allnews";
+import Allnews from "./pages/Allnews";
 
 function App() {
   return (
