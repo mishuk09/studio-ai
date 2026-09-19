@@ -1,6 +1,6 @@
 import { Facebook, Youtube } from "lucide-react";
 import { useState } from "react";
-import Home from "./home";
+import Home from "./Home";
 
 const tabs = [
   {
